@@ -1,0 +1,15 @@
+﻿# 构建清简
+
+Windows x64安装.NET Framework4.8。源码附件完整解压后，PowerShell运行：
+
+```powershell
+.\Build.ps1 -RuntimeFrom '已解压Windows包\Qingjian-V2\runtime'
+```
+
+脚本展开assets/engine-resources.zip并编译app内Common.cs、Assistant.cs、FallbackWindow.cs、SelectionWorker.cs、WordSelection.cs与Bridge.cs，生成app/清简.exe、QingjianLocal3.exe、QingjianBridge054.exe。不提供RuntimeFrom时仅构建，运行前需自行提供Node.js24.x x64和llama.cpp b7600运行库（即Windows附件的runtime）。Web扩展无需C#编译；展开引擎资源后加载app/Edge即可。
+
+原引擎重新构建及第三方固定源码见同版Qingjian-ThirdPartySources-v0.5.4.3.zip。现有WASM是未修改的My RIME0.10.9发布资产；我们没有重新编译WASM，不能许诺字节级可复现。Rime Ice生成器见scripts/Rebuild-Corpus.cjs，输入目录为原始三个.dict.yaml，原始文件在第三方附件中以gzip保存。
+
+不要发布构建后产生的本机配置、日志、学习数据或model权重；以提供的干净发行包为准。
+
+0.5.4.3验证范围：标准Win32编辑框替换/撤销/只读/密码保护、真实子进程退出与超时隔离、后台恢复、真实本地词库RPC、扩展失效上下文生命周期检查。Word、Codex及主流网页已有本机实际使用反馈；不同软件版本并非全部验证。微信、Excel、PPT的失败预览适配不纳入发布。

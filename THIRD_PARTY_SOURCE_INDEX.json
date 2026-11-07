@@ -1,0 +1,630 @@
+{
+  "engine": "@libreservice/my-rime@0.10.9",
+  "wrapperApiMatches": true,
+  "archives": [
+    {
+      "repo": "LibreService/my_rime",
+      "revision": "c73ea172d28f07031ba87a1d71c4d2e1c8ba82a3",
+      "file": "my-rime-c73ea172d28f07031ba87a1d71c4d2e1c8ba82a3.tar.gz",
+      "url": "https://codeload.github.com/LibreService/my_rime/tar.gz/c73ea172d28f07031ba87a1d71c4d2e1c8ba82a3",
+      "sha256": "fb05283b2c6f66dbd9cd6cdb95e54a9ed9889ed6cd22272bc5a707fb65e34a8a",
+      "bytes": 82387
+    },
+    {
+      "repo": "rime/librime",
+      "revision": "f6dd30059e78bfbf6d48788ef35daea8f5806e1d",
+      "file": "librime-f6dd30059e78bfbf6d48788ef35daea8f5806e1d.tar.gz",
+      "url": "https://codeload.github.com/rime/librime/tar.gz/f6dd30059e78bfbf6d48788ef35daea8f5806e1d",
+      "sha256": "8af1a286eb937805ea07c2a7eade1c4f365109b540f95d13ab7548547a6d381a",
+      "bytes": 2637408
+    },
+    {
+      "repo": "google/glog",
+      "revision": "34b8da6496aec6a98277808701cfa834fae9801f",
+      "file": "rime-deps-glog-34b8da6496aec6a98277808701cfa834fae9801f.tar.gz",
+      "url": "https://codeload.github.com/google/glog/tar.gz/34b8da6496aec6a98277808701cfa834fae9801f",
+      "sha256": "1fe1c53084540e62f51fbfd7fcba0714399b22da2287245a17fe03dad2fd2abc",
+      "bytes": 182888
+    },
+    {
+      "repo": "google/leveldb",
+      "revision": "99b3c03b3284f5886f9ef9a4ef703d57373e61be",
+      "file": "rime-deps-leveldb-99b3c03b3284f5886f9ef9a4ef703d57373e61be.tar.gz",
+      "url": "https://codeload.github.com/google/leveldb/tar.gz/99b3c03b3284f5886f9ef9a4ef703d57373e61be",
+      "sha256": "bc87b9bbc5674c91246a89813355e78401759761342cc049e1c3d56350a8a9d1",
+      "bytes": 243094
+    },
+    {
+      "repo": "jbeder/yaml-cpp",
+      "revision": "f7320141120f720aecc4c32be25586e7da9eb978",
+      "file": "rime-deps-yaml-cpp-f7320141120f720aecc4c32be25586e7da9eb978.tar.gz",
+      "url": "https://codeload.github.com/jbeder/yaml-cpp/tar.gz/f7320141120f720aecc4c32be25586e7da9eb978",
+      "sha256": "2fd3bf695ccc056835a70dd6d3046312cc1004e8338b8b5c91646918a27b7ef6",
+      "bytes": 1018426
+    },
+    {
+      "repo": "google/googletest",
+      "revision": "f8d7d77c06936315286eb55f8de22cd23c188571",
+      "file": "rime-deps-googletest-f8d7d77c06936315286eb55f8de22cd23c188571.tar.gz",
+      "url": "https://codeload.github.com/google/googletest/tar.gz/f8d7d77c06936315286eb55f8de22cd23c188571",
+      "sha256": "7ff5db23de232a39cbb5c9f5143c355885e30ac596161a6b9fc50c4538bfbf01",
+      "bytes": 868904
+    },
+    {
+      "repo": "rime/marisa-trie",
+      "revision": "0d4e8ab58eec355facf8f65ff11ef811b330e373",
+      "file": "rime-deps-marisa-trie-0d4e8ab58eec355facf8f65ff11ef811b330e373.tar.gz",
+      "url": "https://codeload.github.com/rime/marisa-trie/tar.gz/0d4e8ab58eec355facf8f65ff11ef811b330e373",
+      "sha256": "ab87bd9bff51382cf67e00605330945dec158911dde4504f93fde0dc8acfaaf2",
+      "bytes": 178528
+    },
+    {
+      "repo": "BYVoid/OpenCC",
+      "revision": "e5d6c5f1b78e28a5797e7ad3ede3513314e544b7",
+      "file": "rime-deps-opencc-e5d6c5f1b78e28a5797e7ad3ede3513314e544b7.tar.gz",
+      "url": "https://codeload.github.com/BYVoid/OpenCC/tar.gz/e5d6c5f1b78e28a5797e7ad3ede3513314e544b7",
+      "sha256": "08b54987a651d14dc7afb688381a5007680e925a224e10426f3800d35ef68835",
+      "bytes": 3314174
+    },
+    {
+      "repo": "boostorg/boost",
+      "revision": "ab7968a0bbcf574a7859240d1d8443f58ed6f6cf",
+      "file": "boost-ab7968a0bbcf574a7859240d1d8443f58ed6f6cf.tar.gz",
+      "url": "https://codeload.github.com/boostorg/boost/tar.gz/ab7968a0bbcf574a7859240d1d8443f58ed6f6cf",
+      "sha256": "6f4bf9c1da697df194b2a4b7fc88a445cfc444980b8ed346ae3fe2f5744103fb",
+      "bytes": 801277
+    },
+    {
+      "repo": "boostorg/any",
+      "revision": "aee53090c04bd0a263480fae25fddddcef54ca82",
+      "file": "boost-libs-any-aee53090c04bd0a263480fae25fddddcef54ca82.tar.gz",
+      "url": "https://codeload.github.com/boostorg/any/tar.gz/aee53090c04bd0a263480fae25fddddcef54ca82",
+      "sha256": "9850d63eb251a3cf98a0840fe31677e8adfe9c85664982e47ff2963522deb7b9",
+      "bytes": 23469
+    },
+    {
+      "repo": "boostorg/system",
+      "revision": "2fc720a1cbe51d588fecc4e0af9417bd769381d8",
+      "file": "boost-libs-system-2fc720a1cbe51d588fecc4e0af9417bd769381d8.tar.gz",
+      "url": "https://codeload.github.com/boostorg/system/tar.gz/2fc720a1cbe51d588fecc4e0af9417bd769381d8",
+      "sha256": "39672b6e69eacacffaef27be4cfa39b3f45c756b057bfd717e5eb223514e9ba9",
+      "bytes": 97142
+    },
+    {
+      "repo": "boostorg/smart_ptr",
+      "revision": "3ef8cfd02f9cb3e0486c26f35ed4c27c6f26bd5f",
+      "file": "boost-libs-smart_ptr-3ef8cfd02f9cb3e0486c26f35ed4c27c6f26bd5f.tar.gz",
+      "url": "https://codeload.github.com/boostorg/smart_ptr/tar.gz/3ef8cfd02f9cb3e0486c26f35ed4c27c6f26bd5f",
+      "sha256": "9a9c7045888f2abe775950665832b721b01a36af2bc3a910e2077effde3a4c25",
+      "bytes": 180588
+    },
+    {
+      "repo": "boostorg/algorithm",
+      "revision": "32c5a6327cfdca5d41ce0f1d8849b811886daa2f",
+      "file": "boost-libs-algorithm-32c5a6327cfdca5d41ce0f1d8849b811886daa2f.tar.gz",
+      "url": "https://codeload.github.com/boostorg/algorithm/tar.gz/32c5a6327cfdca5d41ce0f1d8849b811886daa2f",
+      "sha256": "ea149d5ea35af6b32567a2dc2d565f7232f733ae92430f37cf2da448ec910cf5",
+      "bytes": 1670902
+    },
+    {
+      "repo": "boostorg/concept_check",
+      "revision": "37c9bddf0bdefaaae0ca5852c1a153d9fc43f278",
+      "file": "boost-libs-concept_check-37c9bddf0bdefaaae0ca5852c1a153d9fc43f278.tar.gz",
+      "url": "https://codeload.github.com/boostorg/concept_check/tar.gz/37c9bddf0bdefaaae0ca5852c1a153d9fc43f278",
+      "sha256": "47ddb4ede1c3c66add658ff6ba421d4d820c643a4a004b52dc5f05fe85b5cefc",
+      "bytes": 56197
+    },
+    {
+      "repo": "boostorg/tti",
+      "revision": "03734c54a51b6372ac3296d2fe5103b7360bcd3f",
+      "file": "boost-libs-tti-03734c54a51b6372ac3296d2fe5103b7360bcd3f.tar.gz",
+      "url": "https://codeload.github.com/boostorg/tti/tar.gz/03734c54a51b6372ac3296d2fe5103b7360bcd3f",
+      "sha256": "f56ed54637f1162cd3805e446576a3c7bd29e6691462c8b6dedddaa03894a221",
+      "bytes": 70852
+    },
+    {
+      "repo": "boostorg/functional",
+      "revision": "6a573e4b8333ee63ee62ce95558c3667348db233",
+      "file": "boost-libs-functional-6a573e4b8333ee63ee62ce95558c3667348db233.tar.gz",
+      "url": "https://codeload.github.com/boostorg/functional/tar.gz/6a573e4b8333ee63ee62ce95558c3667348db233",
+      "sha256": "b1d71e7963cad639252bb3835ae7061fc2e9a4ecca0f02b3ca945a7f5cc7f1dd",
+      "bytes": 57167
+    },
+    {
+      "repo": "boostorg/io",
+      "revision": "342e4c6d10d586058818daa84201a2d301357a53",
+      "file": "boost-libs-io-342e4c6d10d586058818daa84201a2d301357a53.tar.gz",
+      "url": "https://codeload.github.com/boostorg/io/tar.gz/342e4c6d10d586058818daa84201a2d301357a53",
+      "sha256": "77b9f299a9fe989332e038bfca88c16fef57b37b0c7e51005b512fb3c01beabf",
+      "bytes": 17472
+    },
+    {
+      "repo": "boostorg/interprocess",
+      "revision": "8e4caa9fca8ff92b739b570f399f4407da0ecc2f",
+      "file": "boost-libs-interprocess-8e4caa9fca8ff92b739b570f399f4407da0ecc2f.tar.gz",
+      "url": "https://codeload.github.com/boostorg/interprocess/tar.gz/8e4caa9fca8ff92b739b570f399f4407da0ecc2f",
+      "sha256": "16c12e76397d339ad3f95d71800f53e1cbd999ca3c1f7eaea7069d868bb44700",
+      "bytes": 426469
+    },
+    {
+      "repo": "boostorg/config",
+      "revision": "11385ec21012926e15a612e3bf9f9a71403c1e5b",
+      "file": "boost-libs-config-11385ec21012926e15a612e3bf9f9a71403c1e5b.tar.gz",
+      "url": "https://codeload.github.com/boostorg/config/tar.gz/11385ec21012926e15a612e3bf9f9a71403c1e5b",
+      "sha256": "a69721ba6d807114ef17a67d0cd9b9db82292ce1cf0e9ba5488d96601f8a208a",
+      "bytes": 386954
+    },
+    {
+      "repo": "boostorg/format",
+      "revision": "78ef371d2d90462671b90c3af407fae07820b193",
+      "file": "boost-libs-format-78ef371d2d90462671b90c3af407fae07820b193.tar.gz",
+      "url": "https://codeload.github.com/boostorg/format/tar.gz/78ef371d2d90462671b90c3af407fae07820b193",
+      "sha256": "f641531a6a0f39fc518f8e29c63369fa218037d5c4447e1e92a1c90a8f5b5254",
+      "bytes": 73168
+    },
+    {
+      "repo": "boostorg/preprocessor",
+      "revision": "c4ea7e40d365ba28faecef8917d5c3f1e0121bf9",
+      "file": "boost-libs-preprocessor-c4ea7e40d365ba28faecef8917d5c3f1e0121bf9.tar.gz",
+      "url": "https://codeload.github.com/boostorg/preprocessor/tar.gz/c4ea7e40d365ba28faecef8917d5c3f1e0121bf9",
+      "sha256": "f2cdb0c8289fa87eb0278492635d86c79ccba617a3960596082a997b237c0b0c",
+      "bytes": 865827
+    },
+    {
+      "repo": "boostorg/integer",
+      "revision": "dea8e3445dc3ca29201498260307138b9460a70c",
+      "file": "boost-libs-integer-dea8e3445dc3ca29201498260307138b9460a70c.tar.gz",
+      "url": "https://codeload.github.com/boostorg/integer/tar.gz/dea8e3445dc3ca29201498260307138b9460a70c",
+      "sha256": "f5ea8112fffb94aeecc67e2e4cd1fbc95abd1f6406b9d7bcb0868df29bfb32a6",
+      "bytes": 47720
+    },
+    {
+      "repo": "boostorg/inspect",
+      "revision": "d18744cddbd4304f7b939131004571dbb301fa4f",
+      "file": "boost-tools-inspect-d18744cddbd4304f7b939131004571dbb301fa4f.tar.gz",
+      "url": "https://codeload.github.com/boostorg/inspect/tar.gz/d18744cddbd4304f7b939131004571dbb301fa4f",
+      "sha256": "8e3203547046dd79807f1dae0de76fc43af72e25fe74cfd35710e42f367a97ec",
+      "bytes": 26277
+    },
+    {
+      "repo": "boostorg/crc",
+      "revision": "e3b1e56890a701ded5e66929579fb7fa62ac6bcc",
+      "file": "boost-libs-crc-e3b1e56890a701ded5e66929579fb7fa62ac6bcc.tar.gz",
+      "url": "https://codeload.github.com/boostorg/crc/tar.gz/e3b1e56890a701ded5e66929579fb7fa62ac6bcc",
+      "sha256": "53d8e4f4b429d94b69d98a2dae405ad2edcba4e959f4a92f84af036d15c7d339",
+      "bytes": 48442
+    },
+    {
+      "repo": "boostorg/boostbook",
+      "revision": "faacd1f26a714a5e2ec7d5c67ef81da371a1de50",
+      "file": "boost-tools-boostbook-faacd1f26a714a5e2ec7d5c67ef81da371a1de50.tar.gz",
+      "url": "https://codeload.github.com/boostorg/boostbook/tar.gz/faacd1f26a714a5e2ec7d5c67ef81da371a1de50",
+      "sha256": "5d71190058779fad9393f0a2516e6ee128ab55c953e656420cbd53e3e05136ce",
+      "bytes": 221605
+    },
+    {
+      "repo": "boostorg/regex",
+      "revision": "4cbcd3078e6ae10d05124379623a1bf03fcb9350",
+      "file": "boost-libs-regex-4cbcd3078e6ae10d05124379623a1bf03fcb9350.tar.gz",
+      "url": "https://codeload.github.com/boostorg/regex/tar.gz/4cbcd3078e6ae10d05124379623a1bf03fcb9350",
+      "sha256": "932f7933986f38ede4f8368ee7e7be8dd67f069d5d236f6478b689f9dbfe7a05",
+      "bytes": 637913
+    },
+    {
+      "repo": "boostorg/random",
+      "revision": "09594050246adcf944be2b2c8dd2b9901083de79",
+      "file": "boost-libs-random-09594050246adcf944be2b2c8dd2b9901083de79.tar.gz",
+      "url": "https://codeload.github.com/boostorg/random/tar.gz/09594050246adcf944be2b2c8dd2b9901083de79",
+      "sha256": "ee975ee7680d3b46ece17913712a1bd7c6878348c11a213806a1492efa51ca15",
+      "bytes": 365924
+    },
+    {
+      "repo": "boostorg/numeric_conversion",
+      "revision": "50a1eae942effb0a9b90724323ef8f2a67e7984a",
+      "file": "boost-libs-numeric-conversion-50a1eae942effb0a9b90724323ef8f2a67e7984a.tar.gz",
+      "url": "https://codeload.github.com/boostorg/numeric_conversion/tar.gz/50a1eae942effb0a9b90724323ef8f2a67e7984a",
+      "sha256": "599de024f076f03b75c341672eb0fbf6c64ad42018f62be1d92e9061938ea0f8",
+      "bytes": 94973
+    },
+    {
+      "repo": "boostorg/date_time",
+      "revision": "85e637cb325208c2af9af791c3a1948b4888c6cd",
+      "file": "boost-libs-date_time-85e637cb325208c2af9af791c3a1948b4888c6cd.tar.gz",
+      "url": "https://codeload.github.com/boostorg/date_time/tar.gz/85e637cb325208c2af9af791c3a1948b4888c6cd",
+      "sha256": "ccc3445566a0cde8950e86433a118050c81bc9099000629115c6344b838bd89f",
+      "bytes": 343033
+    },
+    {
+      "repo": "boostorg/typeof",
+      "revision": "4bc9de322cd44373435540d4e6c8f207892fc9a0",
+      "file": "boost-libs-typeof-4bc9de322cd44373435540d4e6c8f207892fc9a0.tar.gz",
+      "url": "https://codeload.github.com/boostorg/typeof/tar.gz/4bc9de322cd44373435540d4e6c8f207892fc9a0",
+      "sha256": "0685d245ee75a340020c2c1586242e67ea93cba3befa184dca0d3f6a44236165",
+      "bytes": 22202
+    },
+    {
+      "repo": "boostorg/utility",
+      "revision": "e0ecf927643b13c63dfd9a38741315ea8b845135",
+      "file": "boost-libs-utility-e0ecf927643b13c63dfd9a38741315ea8b845135.tar.gz",
+      "url": "https://codeload.github.com/boostorg/utility/tar.gz/e0ecf927643b13c63dfd9a38741315ea8b845135",
+      "sha256": "2008b73b7ae60cde5133567bc8748745f11104e3f572bb018ebfd84dd6a87b62",
+      "bytes": 160536
+    },
+    {
+      "repo": "boostorg/function",
+      "revision": "28b88d07bb4807445462c3f5dab0efde6f532d32",
+      "file": "boost-libs-function-28b88d07bb4807445462c3f5dab0efde6f532d32.tar.gz",
+      "url": "https://codeload.github.com/boostorg/function/tar.gz/28b88d07bb4807445462c3f5dab0efde6f532d32",
+      "sha256": "fc644e6e767e684eb0e868291b75836c2f1a429f48caf9b0dc9997457a3572d3",
+      "bytes": 45398
+    },
+    {
+      "repo": "boostorg/mpl",
+      "revision": "b440c45c2810acbddc917db057f2e5194da1a199",
+      "file": "boost-libs-mpl-b440c45c2810acbddc917db057f2e5194da1a199.tar.gz",
+      "url": "https://codeload.github.com/boostorg/mpl/tar.gz/b440c45c2810acbddc917db057f2e5194da1a199",
+      "sha256": "ba89a5a95bdb33b99fa5080c30249fab21576debded604b922396c1fb3e5d7a9",
+      "bytes": 1512845
+    },
+    {
+      "repo": "boostorg/optional",
+      "revision": "c60db27762ff9cc16529e069c3c15f2fa898f994",
+      "file": "boost-libs-optional-c60db27762ff9cc16529e069c3c15f2fa898f994.tar.gz",
+      "url": "https://codeload.github.com/boostorg/optional/tar.gz/c60db27762ff9cc16529e069c3c15f2fa898f994",
+      "sha256": "f602eeac6fb9e9a1a96e7e321dea6a386ad9f23dae29e95c97786f0d384cbb48",
+      "bytes": 236308
+    },
+    {
+      "repo": "boostorg/variant",
+      "revision": "b33ff4f811a27d4dc4a4c8a840310523de4df4f8",
+      "file": "boost-libs-variant-b33ff4f811a27d4dc4a4c8a840310523de4df4f8.tar.gz",
+      "url": "https://codeload.github.com/boostorg/variant/tar.gz/b33ff4f811a27d4dc4a4c8a840310523de4df4f8",
+      "sha256": "60c9ad7693eaee4c95f63272778350e57d35e54374e562f9a152f965829a8e52",
+      "bytes": 90918
+    },
+    {
+      "repo": "boostorg/array",
+      "revision": "23f6b27c0d9916b9932baac898ae3009817a9153",
+      "file": "boost-libs-array-23f6b27c0d9916b9932baac898ae3009817a9153.tar.gz",
+      "url": "https://codeload.github.com/boostorg/array/tar.gz/23f6b27c0d9916b9932baac898ae3009817a9153",
+      "sha256": "17688c0162008de10a38768f4789e5b990e614ab8b79da20b4dbea68b91da7b9",
+      "bytes": 18377
+    },
+    {
+      "repo": "boostorg/static_assert",
+      "revision": "ba72d3340f3dc6e773868107f35902292f84b07e",
+      "file": "boost-libs-static_assert-ba72d3340f3dc6e773868107f35902292f84b07e.tar.gz",
+      "url": "https://codeload.github.com/boostorg/static_assert/tar.gz/ba72d3340f3dc6e773868107f35902292f84b07e",
+      "sha256": "ce26763308895f4436644e56299cda4cf7dd3ec098d892829d6dbceb06a8ffc5",
+      "bytes": 12875
+    },
+    {
+      "repo": "boostorg/bcp",
+      "revision": "e0b9262f6ff4778973a29b601183f3f9367e69d2",
+      "file": "boost-tools-bcp-e0b9262f6ff4778973a29b601183f3f9367e69d2.tar.gz",
+      "url": "https://codeload.github.com/boostorg/bcp/tar.gz/e0b9262f6ff4778973a29b601183f3f9367e69d2",
+      "sha256": "fe5e88065a91f487ba813fa1c1eff5764bb77cdddc05451f7b59d5b92df1aab3",
+      "bytes": 37467
+    },
+    {
+      "repo": "boostorg/iostreams",
+      "revision": "6be38c3449a64b15213c6a490d357c9a2ac2470b",
+      "file": "boost-libs-iostreams-6be38c3449a64b15213c6a490d357c9a2ac2470b.tar.gz",
+      "url": "https://codeload.github.com/boostorg/iostreams/tar.gz/6be38c3449a64b15213c6a490d357c9a2ac2470b",
+      "sha256": "a748b87535af394d2da746a58c27973219c8f25f6a515ef008a3d1a111b01e47",
+      "bytes": 431427
+    },
+    {
+      "repo": "boostorg/range",
+      "revision": "2bb6b636796f7b008196888613f51f5bb347c77d",
+      "file": "boost-libs-range-2bb6b636796f7b008196888613f51f5bb347c77d.tar.gz",
+      "url": "https://codeload.github.com/boostorg/range/tar.gz/2bb6b636796f7b008196888613f51f5bb347c77d",
+      "sha256": "596296ce8515ac6630d3d2b6f734e82bf7e1e360c0b35f723cbb0f86fa091326",
+      "bytes": 207478
+    },
+    {
+      "repo": "boostorg/build",
+      "revision": "efbf6ce59b4023f7adc9be2fc3875d371c7f52c6",
+      "file": "boost-tools-build-efbf6ce59b4023f7adc9be2fc3875d371c7f52c6.tar.gz",
+      "url": "https://codeload.github.com/boostorg/build/tar.gz/efbf6ce59b4023f7adc9be2fc3875d371c7f52c6",
+      "sha256": "318dc1534b6dd1431bf58a5de24f573888128ef26f3dcba4a2ecf8c10c77271d",
+      "bytes": 1018079
+    },
+    {
+      "repo": "boostorg/iterator",
+      "revision": "4f7219965a399051bb0d8088ea4ab3929b1ac3f2",
+      "file": "boost-libs-iterator-4f7219965a399051bb0d8088ea4ab3929b1ac3f2.tar.gz",
+      "url": "https://codeload.github.com/boostorg/iterator/tar.gz/4f7219965a399051bb0d8088ea4ab3929b1ac3f2",
+      "sha256": "a44ee8f1b0ea2ecaca1c2a27f1d72a7c259b389aa24ac6b40783e8e835302929",
+      "bytes": 1525072
+    },
+    {
+      "repo": "boostorg/quickbook",
+      "revision": "12a390e624f26e2e3f615b10c9681ce5390b02b2",
+      "file": "boost-tools-quickbook-12a390e624f26e2e3f615b10c9681ce5390b02b2.tar.gz",
+      "url": "https://codeload.github.com/boostorg/quickbook/tar.gz/12a390e624f26e2e3f615b10c9681ce5390b02b2",
+      "sha256": "4e197a343460afe395e90585ba42e9c71444cd43a86a816dbe96622d7ae8c174",
+      "bytes": 486262
+    },
+    {
+      "repo": "boostorg/detail",
+      "revision": "9c3a0022b25d3e483f9100cc363bc93a72fd900a",
+      "file": "boost-libs-detail-9c3a0022b25d3e483f9100cc363bc93a72fd900a.tar.gz",
+      "url": "https://codeload.github.com/boostorg/detail/tar.gz/9c3a0022b25d3e483f9100cc363bc93a72fd900a",
+      "sha256": "bbb026c3a1447b71f503767dc31af0915fef3aa60325e9ddc9c10f0af651f044",
+      "bytes": 74135
+    },
+    {
+      "repo": "boostorg/function_types",
+      "revision": "895335874d67987ada0d8bf6ca1725e70642ed49",
+      "file": "boost-libs-function_types-895335874d67987ada0d8bf6ca1725e70642ed49.tar.gz",
+      "url": "https://codeload.github.com/boostorg/function_types/tar.gz/895335874d67987ada0d8bf6ca1725e70642ed49",
+      "sha256": "8f63597ed3203939e8068d932bc94b4d96324b7fbf27414a80c99a50e2992ca6",
+      "bytes": 76427
+    },
+    {
+      "repo": "boostorg/intrusive",
+      "revision": "07ba0e376177409c396c109807c13b7181a98ebe",
+      "file": "boost-libs-intrusive-07ba0e376177409c396c109807c13b7181a98ebe.tar.gz",
+      "url": "https://codeload.github.com/boostorg/intrusive/tar.gz/07ba0e376177409c396c109807c13b7181a98ebe",
+      "sha256": "58472be9c473bfbc7a14993c7789cee463e3ead09c859d48d7eaac82095ce2b5",
+      "bytes": 342298
+    },
+    {
+      "repo": "boostorg/type_traits",
+      "revision": "cc6fc3daa8e20c4a70b563d67ceb4c34d8c1c4d7",
+      "file": "boost-libs-type_traits-cc6fc3daa8e20c4a70b563d67ceb4c34d8c1c4d7.tar.gz",
+      "url": "https://codeload.github.com/boostorg/type_traits/tar.gz/cc6fc3daa8e20c4a70b563d67ceb4c34d8c1c4d7",
+      "sha256": "1fcaa0768f933353a299ce84f0712d2bbee3afcd46ba359fde39cedaccb573a2",
+      "bytes": 399176
+    },
+    {
+      "repo": "boostorg/bind",
+      "revision": "9fbfdcb3577e9427815d4f8cc25b3a25d5b9696b",
+      "file": "boost-libs-bind-9fbfdcb3577e9427815d4f8cc25b3a25d5b9696b.tar.gz",
+      "url": "https://codeload.github.com/boostorg/bind/tar.gz/9fbfdcb3577e9427815d4f8cc25b3a25d5b9696b",
+      "sha256": "831173993c075c7891db2947531db61f68ec48d2aaf5166b4bfeb85f0659cd0c",
+      "bytes": 85131
+    },
+    {
+      "repo": "boostorg/uuid",
+      "revision": "beeaab4758c2f48d0451c759a600b34116c20906",
+      "file": "boost-libs-uuid-beeaab4758c2f48d0451c759a600b34116c20906.tar.gz",
+      "url": "https://codeload.github.com/boostorg/uuid/tar.gz/beeaab4758c2f48d0451c759a600b34116c20906",
+      "sha256": "6e06622a2f622c9da1d38385a83f4591e83a86df554827d6623bc508617cecd4",
+      "bytes": 62766
+    },
+    {
+      "repo": "boostorg/litre",
+      "revision": "564d4d8d30b7e03ac5e25d78e14d2c19fa321c83",
+      "file": "boost-tools-litre-564d4d8d30b7e03ac5e25d78e14d2c19fa321c83.tar.gz",
+      "url": "https://codeload.github.com/boostorg/litre/tar.gz/564d4d8d30b7e03ac5e25d78e14d2c19fa321c83",
+      "sha256": "494a9001101d048d88a7ddb059b8a25a88b651f9884af362d057db694f0d0fea",
+      "bytes": 8554
+    },
+    {
+      "repo": "boostorg/scope_exit",
+      "revision": "60baaae454b2da887a31cf939e22015b6263c9e4",
+      "file": "boost-libs-scope_exit-60baaae454b2da887a31cf939e22015b6263c9e4.tar.gz",
+      "url": "https://codeload.github.com/boostorg/scope_exit/tar.gz/60baaae454b2da887a31cf939e22015b6263c9e4",
+      "sha256": "4dec4ea79f3561701c9d75f58c79b46e531e221f80e7f2ebbd7d53bad6fc2245",
+      "bytes": 50169
+    },
+    {
+      "repo": "boostorg/signals2",
+      "revision": "4d994bbed820882059c7842ba5e230a26d68f2f0",
+      "file": "boost-libs-signals2-4d994bbed820882059c7842ba5e230a26d68f2f0.tar.gz",
+      "url": "https://codeload.github.com/boostorg/signals2/tar.gz/4d994bbed820882059c7842ba5e230a26d68f2f0",
+      "sha256": "69e347205cf1bb608c8b12380ee348fe8dcf19183d675bcf7e99b3c1ef511eee",
+      "bytes": 105290
+    },
+    {
+      "repo": "boostorg/predef",
+      "revision": "0fdfb49c3a6789e50169a44e88a07cc889001106",
+      "file": "boost-libs-predef-0fdfb49c3a6789e50169a44e88a07cc889001106.tar.gz",
+      "url": "https://codeload.github.com/boostorg/predef/tar.gz/0fdfb49c3a6789e50169a44e88a07cc889001106",
+      "sha256": "5ffe2e38af0c6d0dffc5659b6e79ce8775a7865a0eb4d93fc2b14f12b473bbd8",
+      "bytes": 109131
+    },
+    {
+      "repo": "boostorg/move",
+      "revision": "7c01072629d83a7b54c99de70ef535d699ebd200",
+      "file": "boost-libs-move-7c01072629d83a7b54c99de70ef535d699ebd200.tar.gz",
+      "url": "https://codeload.github.com/boostorg/move/tar.gz/7c01072629d83a7b54c99de70ef535d699ebd200",
+      "sha256": "6bfaa1ca69a8d1855d2e8957edabed13d04db9099d7c0108341c83299a35dc01",
+      "bytes": 132331
+    },
+    {
+      "repo": "boostorg/auto_index",
+      "revision": "d8be00789cbe3aae8f247bcedbfa01f39c1a4343",
+      "file": "boost-tools-auto_index-d8be00789cbe3aae8f247bcedbfa01f39c1a4343.tar.gz",
+      "url": "https://codeload.github.com/boostorg/auto_index/tar.gz/d8be00789cbe3aae8f247bcedbfa01f39c1a4343",
+      "sha256": "289dd5acafb5d5840c0f0cc65d1b71d613fd845b310ada57f51232b40a54b691",
+      "bytes": 274771
+    },
+    {
+      "repo": "boostorg/assert",
+      "revision": "447e0b3a331930f8708ade0e42683d12de9dfbc3",
+      "file": "boost-libs-assert-447e0b3a331930f8708ade0e42683d12de9dfbc3.tar.gz",
+      "url": "https://codeload.github.com/boostorg/assert/tar.gz/447e0b3a331930f8708ade0e42683d12de9dfbc3",
+      "sha256": "71541c88abe33e4ffb1ad7ef631c41f362b832a89b64f7cb4ede6e52e9ed0a65",
+      "bytes": 20271
+    },
+    {
+      "repo": "boostorg/align",
+      "revision": "5ad7df63cd792fbdb801d600b93cad1a432f0151",
+      "file": "boost-libs-align-5ad7df63cd792fbdb801d600b93cad1a432f0151.tar.gz",
+      "url": "https://codeload.github.com/boostorg/align/tar.gz/5ad7df63cd792fbdb801d600b93cad1a432f0151",
+      "sha256": "3a4084cf20e79df5389874fb8711f7beb8dc461575cea467fc1679b33ea8a8c1",
+      "bytes": 18735
+    },
+    {
+      "repo": "boostorg/container",
+      "revision": "6e697d796897b32b471b4f0740dcaa03d8ee57cc",
+      "file": "boost-libs-container-6e697d796897b32b471b4f0740dcaa03d8ee57cc.tar.gz",
+      "url": "https://codeload.github.com/boostorg/container/tar.gz/6e697d796897b32b471b4f0740dcaa03d8ee57cc",
+      "sha256": "46b2b09b7998087107278fef78b2f216aa15f842c73d0abe225ef2fbd35b0d17",
+      "bytes": 1414640
+    },
+    {
+      "repo": "boostorg/type_index",
+      "revision": "e37bc99e85e85bcac420ac1d4c1a8a5bca280d47",
+      "file": "boost-libs-type_index-e37bc99e85e85bcac420ac1d4c1a8a5bca280d47.tar.gz",
+      "url": "https://codeload.github.com/boostorg/type_index/tar.gz/e37bc99e85e85bcac420ac1d4c1a8a5bca280d47",
+      "sha256": "0c0d80f6cb2937e37b36d01271d2a3395d686599bd0e2cfcf5c5a3416877ab9d",
+      "bytes": 40989
+    },
+    {
+      "repo": "boostorg/core",
+      "revision": "083b41c17e34f1fc9b43ab796b40d0d8bece685c",
+      "file": "boost-libs-core-083b41c17e34f1fc9b43ab796b40d0d8bece685c.tar.gz",
+      "url": "https://codeload.github.com/boostorg/core/tar.gz/083b41c17e34f1fc9b43ab796b40d0d8bece685c",
+      "sha256": "425f148865596882334d901f64e4e8953fe3893114774a3ec4c669a76bb3d4ba",
+      "bytes": 168980
+    },
+    {
+      "repo": "boostorg/throw_exception",
+      "revision": "7c8ec2114bc1f9ab2a8afbd629b96fbdd5901294",
+      "file": "boost-libs-throw_exception-7c8ec2114bc1f9ab2a8afbd629b96fbdd5901294.tar.gz",
+      "url": "https://codeload.github.com/boostorg/throw_exception/tar.gz/7c8ec2114bc1f9ab2a8afbd629b96fbdd5901294",
+      "sha256": "62a7f9530b58ff5a630001806d62e4878f522486be7a1077e35123f36e731d60",
+      "bytes": 19431
+    },
+    {
+      "repo": "boostorg/winapi",
+      "revision": "39396bd78254053f3137510478e8f956bd2b83d4",
+      "file": "boost-libs-winapi-39396bd78254053f3137510478e8f956bd2b83d4.tar.gz",
+      "url": "https://codeload.github.com/boostorg/winapi/tar.gz/39396bd78254053f3137510478e8f956bd2b83d4",
+      "sha256": "76b09901bc8098ec5342c16657deb107935ad870a3d91a0995eee436908ac640",
+      "bytes": 133111
+    },
+    {
+      "repo": "boostorg/boostdep",
+      "revision": "8f9cb2ef559fbe760f6522ddb8f693c02b83c032",
+      "file": "boost-tools-boostdep-8f9cb2ef559fbe760f6522ddb8f693c02b83c032.tar.gz",
+      "url": "https://codeload.github.com/boostorg/boostdep/tar.gz/8f9cb2ef559fbe760f6522ddb8f693c02b83c032",
+      "sha256": "f3fa9aa2ac7c7ba9e112e7ecbb801d972efafa79eaabe7de2c2f2156292c4142",
+      "bytes": 40898
+    },
+    {
+      "repo": "boostorg/lexical_cast",
+      "revision": "02e5821ab32c45fad719829e9644e5d681c9ba0b",
+      "file": "boost-libs-lexical_cast-02e5821ab32c45fad719829e9644e5d681c9ba0b.tar.gz",
+      "url": "https://codeload.github.com/boostorg/lexical_cast/tar.gz/02e5821ab32c45fad719829e9644e5d681c9ba0b",
+      "sha256": "200f4e9b766761af856e51bae6bf72ec627fadad81fa9a995d21c4b467ff918b",
+      "bytes": 62250
+    },
+    {
+      "repo": "boostorg/mp11",
+      "revision": "863d8b8d2b20f2acd0b5870f23e553df9ce90e6c",
+      "file": "boost-libs-mp11-863d8b8d2b20f2acd0b5870f23e553df9ce90e6c.tar.gz",
+      "url": "https://codeload.github.com/boostorg/mp11/tar.gz/863d8b8d2b20f2acd0b5870f23e553df9ce90e6c",
+      "sha256": "525692267abb8086bb9cc2fe81fb96d73ac645dfa6825cb5114686aafe244e9f",
+      "bytes": 127023
+    },
+    {
+      "repo": "boostorg/endian",
+      "revision": "c9b436e5dfce85e8ae365e5aabbb872dd35c29eb",
+      "file": "boost-libs-endian-c9b436e5dfce85e8ae365e5aabbb872dd35c29eb.tar.gz",
+      "url": "https://codeload.github.com/boostorg/endian/tar.gz/c9b436e5dfce85e8ae365e5aabbb872dd35c29eb",
+      "sha256": "4787c1fd83d88e17aea532a4f1f1513dd5fef34cfa650231235ae5c7831eafe0",
+      "bytes": 81143
+    },
+    {
+      "repo": "boostorg/check_build",
+      "revision": "32ca50c8ccd35e0ff62301b53fddcc8945728c4a",
+      "file": "boost-tools-check_build-32ca50c8ccd35e0ff62301b53fddcc8945728c4a.tar.gz",
+      "url": "https://codeload.github.com/boostorg/check_build/tar.gz/32ca50c8ccd35e0ff62301b53fddcc8945728c4a",
+      "sha256": "0f221f6bb400d4dcea23bdfaed850fc50e66481ec9c7b71bea6b704c2bba805b",
+      "bytes": 3056
+    },
+    {
+      "repo": "boostorg/container_hash",
+      "revision": "6d214eb776456bf17fbee20780a034a23438084f",
+      "file": "boost-libs-container_hash-6d214eb776456bf17fbee20780a034a23438084f.tar.gz",
+      "url": "https://codeload.github.com/boostorg/container_hash/tar.gz/6d214eb776456bf17fbee20780a034a23438084f",
+      "sha256": "9cdb45ba911c9e14e2073292429a6d53ae6cc76f7ad5a63e4f643c622a028660",
+      "bytes": 65370
+    },
+    {
+      "repo": "boostorg/headers",
+      "revision": "0456900fadde4b07c84760eadea4ccc9f948fe28",
+      "file": "boost-libs-headers-0456900fadde4b07c84760eadea4ccc9f948fe28.tar.gz",
+      "url": "https://codeload.github.com/boostorg/headers/tar.gz/0456900fadde4b07c84760eadea4ccc9f948fe28",
+      "sha256": "6a9c7c38df0296302cfb4e1069b8a460fd4962223d38d7dbafdc0d6db0c838f8",
+      "bytes": 1587
+    },
+    {
+      "repo": "boostorg/variant2",
+      "revision": "ff36c3aa1f82d1d9a55fd006dd47cf380fc517c0",
+      "file": "boost-libs-variant2-ff36c3aa1f82d1d9a55fd006dd47cf380fc517c0.tar.gz",
+      "url": "https://codeload.github.com/boostorg/variant2/tar.gz/ff36c3aa1f82d1d9a55fd006dd47cf380fc517c0",
+      "sha256": "db45e6588bbba4bedb5013ff89c65fe1c55d7fa2ffaa7e447809471a681995db",
+      "bytes": 53042
+    },
+    {
+      "repo": "boostorg/boost_install",
+      "revision": "5afffa2881dd84134f60c7473292aea4241a17b6",
+      "file": "boost-tools-boost_install-5afffa2881dd84134f60c7473292aea4241a17b6.tar.gz",
+      "url": "https://codeload.github.com/boostorg/boost_install/tar.gz/5afffa2881dd84134f60c7473292aea4241a17b6",
+      "sha256": "15999a46ebafc3a043d88fbd5ac2402e066fc10319738698706090826c91bfba",
+      "bytes": 1486100
+    },
+    {
+      "repo": "boostorg/docca",
+      "revision": "0ce4e198398dbb52f1de0029f4ed9b7d2bded273",
+      "file": "boost-tools-docca-0ce4e198398dbb52f1de0029f4ed9b7d2bded273.tar.gz",
+      "url": "https://codeload.github.com/boostorg/docca/tar.gz/0ce4e198398dbb52f1de0029f4ed9b7d2bded273",
+      "sha256": "4ae432822eb25eaf93c5bb9b49ad8a55a3cbe779b5a0d7bfe4073a82438727b2",
+      "bytes": 27362
+    },
+    {
+      "repo": "lua/lua",
+      "revision": "5d708c3f9cae12820e415d4f89c9eacbe2ab964b",
+      "file": "lua-5d708c3f9cae12820e415d4f89c9eacbe2ab964b.tar.gz",
+      "url": "https://codeload.github.com/lua/lua/tar.gz/5d708c3f9cae12820e415d4f89c9eacbe2ab964b",
+      "sha256": "03b07cede43a6b84920f6a85e25fa3978a8bffb451b94011aae6eae8b3a2c472",
+      "bytes": 456393
+    },
+    {
+      "repo": "hchunhui/librime-lua",
+      "revision": "7be6974b6d81c116bba39f6707dc640f6636fa4e",
+      "file": "librime-lua-7be6974b6d81c116bba39f6707dc640f6636fa4e.tar.gz",
+      "url": "https://codeload.github.com/hchunhui/librime-lua/tar.gz/7be6974b6d81c116bba39f6707dc640f6636fa4e",
+      "sha256": "73f87ec41cb32331aeb3ebae6e4062a8f2286f1bbb58b9600b6ad96726a3f69f",
+      "bytes": 44876
+    },
+    {
+      "repo": "google/glog",
+      "revision": "36ccb159f442a389ab2b48650d8034aa2a301b79",
+      "file": "glog-build-revision-36ccb159f442a389ab2b48650d8034aa2a301b79.tar.gz",
+      "url": "https://codeload.github.com/google/glog/tar.gz/36ccb159f442a389ab2b48650d8034aa2a301b79",
+      "sha256": "8fd5420597c7f70fd18182e069b732e044566eabf89f55c5f38e9bb06cfde3dd",
+      "bytes": 183149
+    },
+    {
+      "repo": "boostorg/cmake",
+      "revision": "7276e8055d0faab429b11983eccddc68fee075f1",
+      "file": "boost-tools-cmake-7276e8055d0faab429b11983eccddc68fee075f1.tar.gz",
+      "url": "https://codeload.github.com/boostorg/cmake/tar.gz/7276e8055d0faab429b11983eccddc68fee075f1",
+      "sha256": "1ea49725700098990bbe7780473e5d7eb7e0b539818eb5ee85b4c0e644a5771c",
+      "bytes": 34377
+    },
+    {
+      "repo": "boostorg/describe",
+      "revision": "50719b212349f3d1268285c586331584d3dbfeb5",
+      "file": "boost-libs-describe-50719b212349f3d1268285c586331584d3dbfeb5.tar.gz",
+      "url": "https://codeload.github.com/boostorg/describe/tar.gz/50719b212349f3d1268285c586331584d3dbfeb5",
+      "sha256": "17f1c4c3252b97b0f2d537d5266f967a34899bfc2ba86b48117a35e882135b7a",
+      "bytes": 41706
+    },
+    {
+      "repo": "boostorg/json",
+      "revision": "9f85ed6d62ff91c6dc4fc30e3a20e9049ec67585",
+      "file": "boost-libs-json-9f85ed6d62ff91c6dc4fc30e3a20e9049ec67585.tar.gz",
+      "url": "https://codeload.github.com/boostorg/json/tar.gz/9f85ed6d62ff91c6dc4fc30e3a20e9049ec67585",
+      "sha256": "5d8b9c114f343d5054c4a65482404aa6ffcf0f4403574647fa482708efbfa65d",
+      "bytes": 4516878
+    }
+  ]
+}

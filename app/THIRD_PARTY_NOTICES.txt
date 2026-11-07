@@ -1,0 +1,16 @@
+# 第三方组件与源码
+
+清简新增代码按AGPL-3.0-or-later分发。此许可允许依条款使用、修改、再分发和商业使用；没有附加“禁止商用/禁止修改”。
+
+|组件|版本或来源|许可|
+|---|---|---|
+|My RIME WebAssembly接口|@libreservice/my-rime 0.10.9，c73ea172d28f07031ba87a1d71c4d2e1c8ba82a3|AGPL-3.0-or-later|
+|librime及引擎依赖|固定提交，第三方源码包SOURCE-INDEX.json|BSD及各组件原许可|
+|rime-ice词库|99662ba01e3affa6a0f009174ca530b887bac3b6|GPL-3.0|
+|pinyin_simp数据|随包engine/PINYIN-SIMP.LICENSE|Apache-2.0|
+|英文词表|Zeke Sikelianos词表，engine/english.LICENSE|MIT|
+|Node.js|24.22.1 Windows x64，runtime/NODE.LICENSE|MIT及包含的第三方许可|
+|llama.cpp|b7600，runtime/LLAMA.LICENSE及runtime/llama/LICENSE-*|MIT及包含的第三方许可|
+|Qwen3-4B-Instruct-2507|可选，不含模型权重；固定量化版本见model-v3-provenance.json|Apache-2.0|
+
+GPL/AGPL、MIT、BSD、Apache许可原文均保留。与二进制包同时提供本版清简源码包和第三方源码包。源码包包含清简全部应用修改、构建脚本、原始引擎资产；第三方源码包包含固定提交的My RIME、依赖源归档、原始Rime Ice词库。安装不依赖签名锁或秘密构建密钥。名称与图标不意味着派生版本获得官方背书，不对代码许可增加额外限制。

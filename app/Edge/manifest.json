@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "清简",
+  "version": "0.5.4.3",
+  "minimum_chrome_version": "119",
+  "description": "候选栏中英混输：词库即时响应，空格上屏，AI后台辅助",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "offscreen",
+    "contextMenus",
+    "nativeMessaging"
+  ],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "清简",
+    "default_icon": {
+      "16": "icons/qingjian-16.png",
+      "32": "icons/qingjian-32.png"
+    }
+  },
+  "commands": {
+    "convert": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z"
+      },
+      "description": "将选中拼音转换为汉字"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; connect-src 'self'"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4iPXdcQpfxBj3By76gGGac7vJbBcsmzDXNtFn9jMzqTPCyJEVDjCTcQxNMRx90VtFrGkM3kb/7Ac6muaquwjCbJA+dB3P28LRgVVjkqHIo/Xzsj+ohkPZylmb60CTsefsmq/+Un8bO+lXOgxztJZkcDstSYaELpe1nT9Gzm3tu5MhPCaQCoNwaEi66CDOO4y3AT6UEbzcY+iQPQbrn20h8j0SCCBQGoXTcE7ejD/Dx26grm3YEW4lLyRKcVR3yfZwwIQPrv15I3JVsGr5haILeyFWzfYrqJLtebTt3K52MZe204RhvjK+d16+b5FpmnHSvjCVjTjtq/gjTazTqH7MQIDAQAB",
+  "icons": {
+    "16": "icons/qingjian-16.png",
+    "32": "icons/qingjian-32.png",
+    "48": "icons/qingjian-48.png",
+    "128": "icons/qingjian-128.png"
+  }
+}

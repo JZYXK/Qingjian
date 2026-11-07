@@ -1,0 +1,10 @@
+const {parentPort}=require('worker_threads'),fs=require('fs'),path=require('path'),vm=require('vm');
+const base=path.join(__dirname,'Edge');global.require=require;global.__dirname=base;global.__filename=path.join(base,'engine-worker.js');
+const data=fs.readFileSync(base+'/engine/rime.data');
+global.QJ_NODE_ASSETS={base,wasm:fs.readFileSync(base+'/engine/rime.wasm'),data:data.buffer.slice(data.byteOffset,data.byteOffset+data.byteLength)};
+global.postMessage=data=>parentPort.postMessage(data);
+global.fetch=async name=>{const file=path.resolve(base,name);if(!file.startsWith(base+path.sep))throw Error('Invalid engine asset');const b=await fs.promises.readFile(file);return {ok:true,arrayBuffer:async()=>b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),json:async()=>JSON.parse(b.toString())}};
+global.importScripts=name=>vm.runInThisContext(fs.readFileSync(path.resolve(base,name),'utf8'),{filename:name});
+vm.runInThisContext(fs.readFileSync(base+'/engine-v2.js','utf8'),{filename:'engine-v2.js'});
+vm.runInThisContext('ready.then(()=>postMessage({type:"ready"}),e=>postMessage({type:"readiness-error",error:String(e?.message||"词库初始化失败")}))');
+parentPort.on('message',data=>global.onmessage({data}));

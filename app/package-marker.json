@@ -1,0 +1,7 @@
+{
+  "product": "Qingjian-V2",
+  "version": "0.5.4.3",
+  "model": "Qwen3-4B-Instruct-2507-Q4_K_M",
+  "modelRevision": "a06e946bb6b655725eafa393f4a9745d460374c9",
+  "llama": "b7600"
+}

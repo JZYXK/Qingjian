@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/iDvel/rime-ice",
+  "commit": "99662ba01e3affa6a0f009174ca530b887bac3b6",
+  "files": [
+    "cn_dicts/8105.dict.yaml",
+    "cn_dicts/base.dict.yaml",
+    "cn_dicts/ext.dict.yaml",
+    "LICENSE"
+  ],
+  "rows": 878835,
+  "keys": 776248
+}
